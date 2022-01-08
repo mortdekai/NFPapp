@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2">
+    <EditText
+            android:orientation="horizontal"
+            android:id="@+id/number_of_exercises"
+            android:text="Введите число упражнений"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number">
+
+    </EditText>
+    <EditText
+            android:id="@+id/number"
+            android:orientation="horizontal"
+            android:text="Введите порядковый номер упражнения"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number">
+
+    </EditText>
+    <EditText
+            android:id="@+id/result"
+            android:orientation="horizontal"
+            android:text="Введите результат"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number">
+
+    </EditText>
+    <TextView
+            android:id="@+id/sum"
+            android:text="Результат"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    </TextView>
+    <Button
+            android:orientation="horizontal"
+            android:text="подсчет"
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+            android:orientation="horizontal"
+            android:text="В главное меню"
+            android:id="@+id/back_to_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
